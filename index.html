@@ -1,0 +1,172 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ellenen Advisory | Expert Network</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#f4f6fb;color:#1a1a1a}
+header{background:#0b2a4a;color:white;padding:18px 40px;display:flex;justify-content:space-between;align-items:center}
+header h1{margin:0;font-size:22px}
+nav a{color:white;margin-left:20px;text-decoration:none;font-weight:bold}
+.hero{background:linear-gradient(120deg,#0f3d6e,#0b2a4a);color:white;padding:90px 40px}
+.hero h2{font-size:42px;margin-bottom:10px}
+.hero p{max-width:650px;font-size:18px}
+.cta{margin-top:30px}
+.cta button{margin-right:15px}
+.container{max-width:1200px;margin:auto;padding:60px 30px}
+.section-title{font-size:30px;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
+.card{background:white;padding:25px;border-radius:10px;box-shadow:0 6px 14px rgba(0,0,0,0.08)}
+.expert{display:flex;flex-direction:column}
+.expert img{width:70px;height:70px;border-radius:50%;margin-bottom:10px}
+.tag{background:#e8eef8;padding:4px 10px;border-radius:5px;font-size:12px;display:inline-block;margin-top:6px;margin-right:5px}
+.search-box{background:white;padding:25px;border-radius:10px;box-shadow:0 6px 14px rgba(0,0,0,0.08);margin-bottom:40px}
+input,select,textarea{width:100%;padding:11px;margin-top:6px;margin-bottom:18px;border:1px solid #ccc;border-radius:6px}
+button{background:#0f3d6e;color:white;padding:12px 20px;border:none;border-radius:6px;font-size:15px;cursor:pointer}
+button:hover{background:#08223c}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:25px}
+.step{background:white;padding:25px;border-radius:10px;box-shadow:0 6px 14px rgba(0,0,0,0.08)}
+.profile{display:grid;grid-template-columns:120px 1fr;gap:20px}
+.profile img{width:100px;height:100px;border-radius:50%}
+.rate{font-weight:bold;color:#0f3d6e}
+footer{background:#0b2a4a;color:white;text-align:center;padding:30px;margin-top:60px}
+.small{font-size:14px;color:#666}
+</style>
+</head>
+<body><header>
+<h1>Ellenen Advisory</h1>
+<nav>
+<a href="#search">Find Experts</a>
+<a href="#how">How It Works</a>
+<a href="#request">Request Expert</a>
+<a href="#join">Become Expert</a>
+</nav>
+</header><section class="hero">
+<h2>Find Industry Experts On Demand</h2>
+<p>Ellenen Advisory connects companies, investors and consulting firms with senior professionals across mining, metallurgy, engineering and industrial sectors.</p>
+<div class="cta">
+<button onclick="document.getElementById('search').scrollIntoView()">Search Experts</button>
+<button onclick="document.getElementById('request').scrollIntoView()">Request Expert</button>
+</div>
+</section><section class="container" id="search">
+<h2 class="section-title">Search Experts</h2><div class="search-box">
+<label>Keyword</label>
+<input placeholder="Example: platinum smelter, mine manager"><label>Industry</label> <select>
+
+<option>All</option>
+<option>Mining</option>
+<option>Metallurgy</option>
+<option>Engineering</option>
+<option>Energy</option>
+<option>Chemicals</option>
+</select><label>Region</label> <select>
+
+<option>Global</option>
+<option>Africa</option>
+<option>South Africa</option>
+<option>Europe</option>
+<option>North America</option>
+</select><button>Search Experts</button>
+
+</div><div class="grid"><div class="card">
+<div class="profile">
+<img src="https://randomuser.me/api/portraits/men/32.jpg">
+<div>
+<strong>Platinum Smelting Expert</strong>
+<div class="small">Former Anglo Platinum Operations Manager</div>
+<div class="rate">$600 / hour</div>
+<div class="tag">Metallurgy</div>
+<div class="tag">Smelting</div>
+<button style="margin-top:10px">View Profile</button>
+</div>
+</div>
+</div><div class="card">
+<div class="profile">
+<img src="https://randomuser.me/api/portraits/men/11.jpg">
+<div>
+<strong>Mining Operations Director</strong>
+<div class="small">30 years underground & open pit mining</div>
+<div class="rate">$450 / hour</div>
+<div class="tag">Mining</div>
+<div class="tag">Operations</div>
+<button style="margin-top:10px">View Profile</button>
+</div>
+</div>
+</div><div class="card">
+<div class="profile">
+<img src="https://randomuser.me/api/portraits/women/44.jpg">
+<div>
+<strong>Energy Market Specialist</strong>
+<div class="small">Power markets and grid infrastructure</div>
+<div class="rate">$500 / hour</div>
+<div class="tag">Energy</div>
+<div class="tag">Utilities</div>
+<button style="margin-top:10px">View Profile</button>
+</div>
+</div>
+</div></div>
+</section><section class="container" id="how">
+<h2 class="section-title">How Ellenen Works</h2>
+<div class="steps">
+<div class="step">
+<h3>1. Search Experts</h3>
+<p>Browse our expert network by industry, expertise or region.</p>
+</div>
+<div class="step">
+<h3>2. View Profiles</h3>
+<p>Review expert experience, background and hourly consulting rate.</p>
+</div>
+<div class="step">
+<h3>3. Request Call</h3>
+<p>Submit a call request with your questions and preferred time.</p>
+</div>
+<div class="step">
+<h3>4. Schedule & Connect</h3>
+<p>We schedule the call and you gain insights directly from the expert.</p>
+</div>
+</div>
+</section><section class="container" id="request">
+<h2 class="section-title">Request an Expert Call</h2>
+<form>
+<label>Company Name</label>
+<input placeholder="Company name"><label>Your Name</label> <input placeholder="Contact name">
+
+<label>Email</label> <input type="email" placeholder="Email address">
+
+<label>Expert Needed</label> <input placeholder="Example: platinum refinery specialist">
+
+<label>Project Description</label>
+
+<textarea rows="4" placeholder="Describe the insight you need"></textarea><label>Call Length</label> <select>
+
+<option>30 minutes</option>
+<option>1 hour</option>
+<option>2 hours</option>
+</select><button>Submit Request</button>
+
+</form>
+</section><section class="container" id="join">
+<h2 class="section-title">Become an Ellenen Expert</h2>
+<form>
+<label>Full Name</label>
+<input placeholder="Your name"><label>Email</label> <input type="email" placeholder="Email">
+
+<label>Current Role</label> <input placeholder="Example: Former Mine GM">
+
+<label>Years Experience</label> <input type="number" placeholder="Years">
+
+<label>Primary Expertise</label> <input placeholder="Example: chrome beneficiation">
+
+<label>LinkedIn</label> <input placeholder="LinkedIn profile">
+
+<label>Hourly Consulting Rate (USD)</label> <input type="number" placeholder="Example 400">
+
+<label>Short Bio</label>
+
+<textarea rows="4"></textarea><button>Apply to Join Network</button>
+
+</form>
+</section><footer>
+<p>© 2026 Ellenen Advisory — Global Expert Network for Mining and Industry</p>
+</footer></body>
+</html>
